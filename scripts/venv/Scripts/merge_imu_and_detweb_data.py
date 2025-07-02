@@ -2,7 +2,7 @@ import pandas as pd
 
 # Load your datasets
 df1 = pd.read_csv(r"G:\HabitatHorizons\Python\rso_occ_comparison\data\wildlife\detweb_export_image_a_and_b.csv", delimiter=";")
-df2 = pd.read_excel(r"G:\HabitatHorizons\Python\rso_occ_comparison\scripts\venv\Scripts\updated_data_with_euler_angles.xlsx")
+df2 = pd.read_excel(r"G:\HabitatHorizons\Python\rso_occ_comparison\data\imu\updated_data_with_corrected_euler_angles.xlsx")
 
 # Initialize a list to collect matched rows
 matched_rows = []
